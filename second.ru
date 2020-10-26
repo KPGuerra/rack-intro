@@ -1,4 +1,4 @@
-
+require 'rack'
 
 # Something that responds to call, that's what Rack demands
 class MyServer
@@ -11,3 +11,4 @@ class MyServer
   end
 end
 
+run MyServer.new 
